@@ -6,21 +6,16 @@ import rclone
 
 cfg_path = "./rclone.conf"
 from_drives = [
-    "test",
-    "___backups",
-    "__code",
-    "__meow",
-    "__quack",
-    "dumpyard",
-    "pss",
-    "public",
+    "MainDrive",
+    "MainDrive",
+    "MainDrive",
+    "FotosDB",
 ]
 to_drives = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
+    "BackupDrive1",
+    "BackupDrive2",
+    "BackupDrive3",
+    "FotosBackup",
 ]
 
 cfg = open(cfg_path).read()
