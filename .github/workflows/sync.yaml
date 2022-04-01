@@ -31,4 +31,4 @@ jobs:
           ls ${{ github.workspace }}
       - name: Start sync
         run: |
-          python3 sync.py
+          sudo python3 sync.py
