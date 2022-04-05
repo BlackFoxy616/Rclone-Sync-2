@@ -6,15 +6,9 @@ import rclone
 
 cfg_path = "./rclone.conf"
 from_drives = [
-    "MainDrive",
-    "MainDrive",
-    "MainDrive",
     "FotosDB",
 ]
 to_drives = [
-    "BackupDrive1",
-    "BackupDrive2",
-    "BackupDrive3",
     "FotosBackup",
 ]
 
