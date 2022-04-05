@@ -7,9 +7,11 @@ import rclone
 cfg_path = "./rclone.conf"
 from_drives = [
     "FotosDB",
+    "OneDrive",
 ]
 to_drives = [
     "FotosBackup",
+    "BackupDrive1",
 ]
 
 cfg = open(cfg_path).read()
